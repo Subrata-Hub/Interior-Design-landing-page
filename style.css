@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("assets/background.jpeg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100vw 100vh;
+  background-position: top;
+  color: #ffffff;
+  font-family: roboto;
+}
+
+.container {
+  margin: 30px 50px;
+}
+
+/* ////////// Navbar Section ////////// */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-list {
+  display: flex;
+  gap: 55px;
+  list-style-type: none;
+}
+
+.item {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  gap: 10px;
+}
+.phone-img i {
+  font-size: 26px;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.line {
+  margin-top: 15px;
+  margin-left: 430px;
+  height: 2px;
+  width: 70%;
+  background-color: #ffffff;
+}
+
+/* ////////// Hero section /////////// */
+
+.main-section {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  height: 60vh;
+  gap: 30px;
+}
+
+.left-section {
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.left-section h1 {
+  font-size: 70px;
+}
+
+.left-section button {
+  margin-top: 50px;
+  padding: 16px 40px;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 20px;
+  border: 2px solid #ffffff;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 40px;
+  width: 80px;
+}
+
+.card-img img {
+  height: 30px;
+}
+
+.card1 {
+  position: absolute;
+  width: 230px;
+  padding: 20px;
+  background-color: #365366a8;
+  right: 100px;
+  top: 50px;
+}
+
+.card1 p {
+  margin-top: 20px;
+}
+
+.card2 {
+  position: absolute;
+  width: 180px;
+  padding: 20px;
+  background-color: #365366a8;
+  bottom: 0px;
+  right: 450px;
+}
+
+.card2 p {
+  margin-top: 20px;
+}
+
+.card1 .line-one {
+  position: absolute;
+  height: 70px;
+  width: 1px;
+  background-color: #ffffff;
+  top: 140px;
+  right: 130px;
+}
+
+.card1 .circle-one {
+  height: 5px;
+  width: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 200px;
+  right: 123px;
+}
+
+.card2 .line-two {
+  position: absolute;
+  height: 1px;
+  width: 80px;
+  background-color: #ffffff;
+  bottom: 70px;
+  right: -80px;
+}
+.card2 .circle-two {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  bottom: 65px;
+  right: -95px;
+}
